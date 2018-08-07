@@ -1,0 +1,44 @@
+.notesContainer {
+  display: block;
+  width: 100%;
+  min-height: 400px;
+  resize: vertical;
+  overflow: auto;
+  margin-bottom: 20px;
+  background: white;
+}
+
+.noteContainer {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  min-height: 60px;
+  color: black;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.noteHeader {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.note {
+  min-height: 20px;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.noteActionContainer i:hover {
+  cursor: pointer;
+}
+
+.addNoteContainer {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.addNoteContainer i:hover {
+  cursor: pointer;
+}

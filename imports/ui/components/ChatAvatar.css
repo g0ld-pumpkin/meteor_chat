@@ -1,0 +1,25 @@
+.chatAvatarMenu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background: #111111;
+  color: grey;
+  width: auto;
+  min-width: 230px;
+  height: auto;
+  z-index: 100;
+}
+
+.chatAvatarMenuItem {
+  margin-bottom: 5px;
+  padding: 8px 12px;
+  height: 20px;
+  text-align: center;
+}
+
+.chatAvatarMenuItem:hover {
+  background: #3198db;
+  color: white;
+  cursor: pointer;
+}

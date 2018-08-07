@@ -1,0 +1,61 @@
+.privateMessages {
+  display: inline-block;
+  min-height: 60px;
+  width: auto;
+  min-width: 65%;
+  overflow-x: auto;
+  overflow-y: visible;
+  margin-left: 5px;
+}
+
+.privateMessageButton {
+  display: inline-block;
+  background: #111111;
+  color: #919191;
+  border: 1px solid #3198db;
+  border-radius: 16px;
+  width: auto;
+  min-width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+  overflow: visible;
+  margin-right: 5px;
+  box-sizing: border-box;
+}
+
+.privateMessageButton:hover {
+  cursor: pointer;
+}
+
+.privateNotifications {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.privateMessageButton:not(.selectedPrivateMessage) {
+  background: #111111;
+}
+
+.deletePrivateMessage {
+  position: absolute;
+  right: 5px;
+  top: -10px;
+  font-size: 18px;
+}
+
+.deletePrivateMessage:hover {
+  color: red;
+  cursor: pointer;
+}

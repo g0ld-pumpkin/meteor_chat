@@ -1,0 +1,13 @@
+.genderContainer {
+  display: inline-block;
+}
+
+.gender {
+  font-size: 12px;
+}
+
+.genderIcon {
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 5px;
+}

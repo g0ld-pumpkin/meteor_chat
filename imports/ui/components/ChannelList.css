@@ -1,0 +1,32 @@
+.channels {
+  display: inline-block;
+  height: 60px;
+  width: auto;
+  max-width: 35%;
+  position: relative;
+  overflow: auto;
+}
+
+.channel {
+  display: inline-block;
+  border: 1px solid #3198db;
+  background: #111111;
+  color: #919191;
+  width: auto;
+  height: 30px;
+  line-height: 20px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.channel:hover {
+  cursor: pointer;
+  background: #2f4f4f;
+}
+
+.channel.selectedChannel {
+  background: #2f4f4f;
+  color: white;
+}

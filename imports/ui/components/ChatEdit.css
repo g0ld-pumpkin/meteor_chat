@@ -1,0 +1,8 @@
+.chatEdit {
+  align-self: flex-end;
+  height: auto;
+  min-height: 70px;
+  background-color: black;
+  padding: 10px;
+  box-sizing: border-box;
+}

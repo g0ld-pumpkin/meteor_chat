@@ -1,0 +1,33 @@
+.account {
+  width: 100%;
+  padding-left: 30px;
+}
+
+.account .adminPanelFormRow label.firstInput {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+.accountsInput {
+  height: 35px;
+}
+
+.adminPanelFormRow {
+  margin-bottom: 25px;
+}
+
+.accountCharacters,
+.accountRoles {
+  overflow: auto;
+  padding-top: 15px;
+  line-height: 20px;
+}
+
+.backToListing {
+  text-decoration: underline;
+}
+
+.backToListing:hover {
+  cursor: pointer;
+}

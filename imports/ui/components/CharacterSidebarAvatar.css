@@ -1,0 +1,63 @@
+.avatar {
+  display: inline-block;
+}
+
+.avatar:hover {
+  cursor: pointer;
+}
+
+.avatarStatusMenu {
+  display: none;
+  width: 150px;
+  height: 140px;
+  background-color: #111111;
+  position: relative;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  z-index: 500;
+}
+
+.avatarStatusMenu:after,
+.avatarStatusMenu:before {
+  bottom: 100%;
+  right: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.avatarStatusMenu:after {
+  border-bottom-color: rgba(17,17,17,1) !important;
+  margin-left: -9px;
+  border-width: 9px;
+}
+
+.avatarStatusMenu:before {
+  border-bottom-color: rgba(128,128,128,1) !important;
+  margin-left: -10px;
+  border-width: 10px;
+}
+
+.avatarStatusMenu hr {
+  height: 1px;
+  border: 0;
+  color: grey;
+  background-color: #333;
+}
+
+.avatarStatusMenuItem {
+  width: 100%;
+  height: 30px;
+  line-height: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.avatarStatusMenuItem:hover {
+  background: black;
+}

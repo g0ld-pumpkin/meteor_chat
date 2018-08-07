@@ -1,0 +1,41 @@
+.adminPanelSidebar {
+  width: 300px;
+  min-width: 300px;
+  background: black;
+  height: auto;
+}
+
+.adminPanelSidebar a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.adminPanelSidebarItem {
+  height: 90px;
+  line-height: 40px;
+  padding: 25px;
+  box-sizing: border-box;
+  font-size: 18px;
+  position: relative;
+}
+
+.adminPanelSidebarItem:hover {
+  background: #1e1e1e;
+  cursor: pointer;
+}
+
+.adminPanelSidebarItemSelected {
+  background: #1e1e1e;
+}
+
+.adminPanelSidebarItem i {
+  position: absolute;
+  left: 50px;
+  top: 35px;
+}
+
+.adminPanelSidebarItem span {
+  position: absolute;
+  left: 100px;
+  top: 25px;
+}

@@ -1,0 +1,69 @@
+.modalContent.accountManagment {
+  margin: 5% auto;
+}
+
+.modalContent .formBox .formRow #crystalLabel {
+  width: 48px;
+  margin-left: 82px;
+}
+
+#changePasswordButton,
+#deleteAccountButton {
+  width: 150px;
+}
+
+#successMessagePassword {
+  display: none;
+  color: green;
+  margin-left: 20px;
+}
+
+.formBox.deleteBox {
+  position: relative;
+}
+
+#confirmDeleteBox {
+  display: none;
+  position: absolute;
+  background-color: #111111;
+  color: grey;
+  top: -95px;
+  width: 450px;
+  height: 105px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border-radius: 4px
+}
+
+#confirmDeleteBox:after,
+#confirmDeleteBox:before {
+  top: 100%;
+  left: 20%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+#confirmDeleteBox:after {
+  border-top-color: rgba(17, 17, 17, 1) !important;
+  margin-left: -5px;
+  border-width: 5px;
+}
+
+#confirmDeleteBox:before {
+  border-top-color: rgba(128, 128, 128, 1) !important;
+  margin-left: -7px;
+  border-width: 7px;
+}
+
+#confirmDeleteBox button {
+  height: 25px;
+  font-size: 10px;
+  width: 50px;
+  margin-right: 10px;
+  margin-bottom: -15px;
+}

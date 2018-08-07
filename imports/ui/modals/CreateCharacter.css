@@ -1,0 +1,88 @@
+.modalContent.createCharacter {
+  margin: 1% auto;
+  width: 920px;
+}
+
+.formFlexContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 680px;
+  margin: 10px auto;
+}
+
+.formFlexContainer .formColumn {
+  width: 340px;
+}
+
+.formFlexContainer .formColumn .formRow label:not(.imageInputLabel) {
+  width: 80px;
+}
+
+.formFlexContainer .formColumn .formRow input,
+.imageInputContainer {
+  width: 200px !important;
+}
+
+.imageInputContainer {
+  height: 35px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.imageInputLabel {
+  width: 70px;
+  height: 25px !important;
+  line-height: 25px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 115px;
+}
+
+.imageInputContainer input[type="file"] {
+  display: none;
+}
+
+.imageInputLabel:hover {
+  cursor: pointer;
+}
+
+.createCharacterButton,
+.closeCharacterButton {
+  width: 120px;
+}
+
+#profileEditor {
+  border-radius: 4px !important;
+}
+
+.mce-toolbar-grp {
+  background-color: black !important;
+  background-image: none !important;
+}
+
+html, body {
+  background-color: #111111 !important;
+}
+
+#tinymce.mce-content-body {
+  background-color: #111111 !important;
+}
+
+.mce-container-body,
+.mce-panel {
+  background-color: black !important;
+}
+
+.mce-ico {
+  color: #8b969a !important;
+  border: none !important;
+}
+
+.mce-btn {
+  border: none !important;
+}
+
+.mce-toolbar-grp .mce-btn button {
+  background-color: black;
+  color: #8b969a !important;
+}

@@ -1,0 +1,79 @@
+.chatLine {
+  width: 98%;
+  position: relative;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.chatLineEdit p {
+  background-color: #888;
+}
+
+.chatLineTextContainer {
+  display: inline-block;
+  padding-left: 15px;
+  height: auto;
+  width: 0;
+  min-width: 100%;
+}
+
+.chatLineTextContainer p {
+  display: inline-block;
+  max-width: 88%;
+  word-wrap: break-word;
+  vertical-align: text-top;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.chatLineCharNickname {
+  font-size: 14px;
+}
+
+.hoverActionContainer {
+  position: absolute;
+  width: auto;
+  height: 30px;
+  right: 30px;
+  top: 5px;
+  z-index: 50;
+}
+
+.hoverActionIcon {
+  display: none;
+  vertical-align: middle;
+  position: absolute;
+  right: -35px;
+}
+
+.hoverActionIcon:hover {
+  cursor: pointer;
+}
+
+.hoverActionMenu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: -35px;
+  background: black;
+  color: grey;
+  width: 80px;
+}
+
+.hoverAction {
+  margin-bottom: 5px;
+  padding: 5px;
+  height: 20px;
+  text-align: center;
+}
+
+.hoverAction:hover {
+  background: #3198db;
+  color: white;
+  cursor: pointer;
+}
+
+.emojiImg {
+  font-size: 20px;
+  vertical-align: top;
+}

@@ -1,0 +1,167 @@
+.profileEditContainer {
+  border: 1px solid grey;
+  min-height: 250px;
+  height: auto;
+}
+
+.profileFormat {
+  background: black;
+  height: 40px;
+  line-height: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.profileEdit {
+  height: auto;
+  min-height: 210px;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+  overflow: auto;
+}
+
+.profileEdit:focus {
+  outline: none;
+}
+
+.colorPicker {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: 0;
+  margin-bottom: -10px;
+}
+
+.profileFontDropdownChoice,
+.profileHeaderDropdownChoice,
+.profileListDropdownChoice {
+  display: none;
+  position: absolute;
+  background-color: black;
+  left: -5px;
+  top: 30px;
+}
+
+.profileFontDropdownChoice {
+  width: 150px;
+}
+
+.profileHeaderDropdownChoice {
+  width: 100px;
+}
+
+.profileListDropdownChoice {
+  width: 40px;
+  left: 15px;
+}
+
+.profileFontChoice,
+.profileHeaderChoice,
+.profileListChoice {
+  color: #88979e;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  display: block;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+
+.profileListChoice {
+  padding-left: 0px;
+}
+
+.profileFontChoice:hover,
+.profileHeaderChoice:hover,
+.profileListChoice:hover {
+  background-color: #5CB3FF;
+  color: white;
+  cursor: pointer;
+}
+
+.profileInputTitle {
+  height: 5px;
+	background: #000000;
+	border: 1px solid #000;
+  position: relative;
+}
+
+.profileInputTitle:after, .profileInputTitle:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.profileInputTitle:after {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #000000;
+	border-width: 8px;
+	margin-left: -8px;
+}
+
+.profileInputTitle:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #000;
+	border-width: 9px;
+	margin-left: -9px;
+}
+
+.profileImageInputContainer,
+.profileLinkInputContainer {
+  display: none;
+  width: auto;
+  position: absolute;
+  top: 50px;
+  border: 1px solid #000;
+}
+
+.profileImageInputContainer {
+  left: -130px;
+}
+
+.profileLinkInputContainer {
+  left: -95px;
+}
+
+.profileEditInput {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid blue;
+  width: 100px;
+  background: transparent;
+  margin: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #919191;
+  cursor: default;
+}
+
+.profileEditInput:hover {
+  cursor: default;
+}
+
+.profileEditInput:focus {
+  outline: none;
+  cursor: default;
+}
+
+.addLinkButton {
+  border: 1px solid #3198db;
+  background: #111111;
+  color: #919191;
+  width: auto;
+  height: 30px;
+  line-height: 20px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+}

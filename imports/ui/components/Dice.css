@@ -1,0 +1,36 @@
+.chatDiceContainer {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.diceImage {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.diceImage:hover,
+.dices:hover {
+  cursor: pointer;
+}
+
+.dices {
+  background-color: black;
+  display: none;
+  width: auto;
+  position: absolute;
+  left: 0px;
+  top: -450px;
+  padding: 10px;
+}
+
+.dice {
+  display: block;
+  width: auto;
+  border: 1px solid #919191;
+  color: #919191;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  padding: 5px;
+  text-align: center;
+}

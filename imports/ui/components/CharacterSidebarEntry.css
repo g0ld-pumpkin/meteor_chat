@@ -1,0 +1,47 @@
+.characterListEntry {
+  height: 60px;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.characterListEntry .characterNickname:hover {
+  cursor: pointer;
+}
+
+.characterListEntry.characterListEntrySelected {
+  background-color: #1e1e1e;
+}
+
+.characterListEntry .characterNickname {
+  color: #919191;
+  position: absolute;
+  left: 70px;
+  top: 25px;
+}
+
+.characterListEntry i:not(.characterListEntryStatus) {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+.characterListEntry i:not(.characterListEntryStatus):hover {
+  cursor: pointer;
+}
+
+.characterNotifications {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}

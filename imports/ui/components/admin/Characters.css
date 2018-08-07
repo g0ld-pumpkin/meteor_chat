@@ -1,0 +1,9 @@
+.characters {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.characters tbody td {
+  padding-left: 15px;
+}

@@ -1,0 +1,84 @@
+.searchSidebar {
+  width: 250px;
+  min-width: 250px;
+  background-color: #000000;
+  overflow: auto;
+}
+
+.searchInputContainer {
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+
+.searchInputContainer input {
+  width: 80%;
+  height: 40px;
+  background: transparent;
+  color: grey;
+  border: 0;
+}
+
+.searchInputContainer input:focus {
+  border: 0;
+}
+
+.searchInputContainer i {
+  position: absolute;
+  right: 25px;
+  top: 30px;
+}
+
+.searchInput {
+  font-size: 12px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.searchInput:placeholder {
+  font-size: 12px;
+}
+
+.searchTool {
+  display: none;
+  position: relative;
+  background-color: #111111;
+  color: grey;
+  width: 250px;
+  height: 230px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.searchTool:after,
+.searchTool:before {
+  bottom: 100%;
+  right: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.searchTool:after {
+  border-bottom-color: rgba(17,17,17,1) !important;
+  margin-left: -9px;
+  border-width: 9px;
+}
+
+.searchTool:before {
+  border-bottom-color: rgba(128,128,128,1) !important;
+  margin-left: -10px;
+  border-width: 10px;
+}
+
+.searchTool input:not([type='radio']) {
+  height: 35px;
+  width: 220px;
+  margin: 0 auto;
+}

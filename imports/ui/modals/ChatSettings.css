@@ -1,0 +1,33 @@
+.chatSettings {
+  display: none;
+  background-color: #111111;
+  color: #919191;
+  width: 330px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  z-index: 10000;
+  position: absolute;
+  top: 140px;
+}
+
+.chatSettingsHeaderBox {
+  background: black;
+  color: #919191;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.chatSettingsTitleBox {
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.chatSettings hr {
+  height: 1px;
+  border: 0;
+  color: grey;
+  background-color: #333;
+}

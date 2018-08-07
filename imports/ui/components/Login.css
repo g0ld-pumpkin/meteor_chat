@@ -1,0 +1,52 @@
+#loginForm {
+  align-self: flex-end;
+  display: flex;
+  height: 100px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-top: -30px;
+}
+
+#createAccountBox,
+#loginBox {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  flex-basis: content;
+  align-self: flex-end;
+}
+
+#createAccountBox button,
+#loginBox input[type="submit"] {
+  height: 40px;
+}
+
+#createAccountBox button {
+  display: block;
+  width: 180px;
+  margin: 0 auto;
+}
+
+#loginBox input[type="submit"] {
+  margin-left: 15px;
+  width: 120px;
+}
+
+#loginBox input[type="text"],
+#loginBox input[type="password"] {
+  height: 40px;
+  width: 200px;
+}
+
+#loginBox input[id="password"] {
+  margin-left: 15px;
+}
+
+#loginBox {
+  margin-left: 50px;
+}
+
+#loginErrorMessage {
+  display: none;
+  color: red;
+}

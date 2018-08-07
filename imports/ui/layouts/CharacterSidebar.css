@@ -1,0 +1,100 @@
+#characterSidebar {
+  width: 250px;
+  min-width: 250px;
+  background-color: #000000;
+  height: auto;
+  position: relative;
+}
+
+.hideCharacterManagmentIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.hideCharacterManagmentIcon:hover {
+  cursor: pointer;
+}
+
+#characterSidebarHeader {
+  padding: 15px;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
+#characterSidebar hr {
+  height: 1px;
+  border: 0;
+  color: grey;
+  background-color: #333;
+}
+
+#characterSidebarUsername {
+  display: inline-block;
+  width: 200px;
+}
+
+#characterManagmentIcon {
+  color: #b8c3cc;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+
+#characterManagmentIcon:hover {
+  cursor: pointer;
+}
+
+#logInCharacter {
+  display: none;
+  position: relative;
+  background-color: #111111;
+  color: grey;
+  width: 250px;
+  height: 260px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#logInCharacter:after,
+#logInCharacter:before {
+  bottom: 100%;
+  right: 50%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+#logInCharacter:after {
+  border-bottom-color: rgba(17,17,17,1) !important;
+  margin-left: -9px;
+  border-width: 9px;
+}
+
+#logInCharacter:before {
+  border-bottom-color: rgba(128,128,128,1) !important;
+  margin-left: -10px;
+  border-width: 10px;
+}
+
+#logInCharacter select {
+  margin-left: 0px;
+  margin-bottom: 20px;
+  width: 260px;
+  height: 40px;
+}
+
+#logInCharacter select:hover {
+  cursor: pointer;
+}
+
+.logInLabel {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,16 @@
+.chat {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.chat.privateChat {
+  height: 300px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.chat.privateChat:hover {
+  cursor: move;
+}

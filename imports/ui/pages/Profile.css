@@ -1,0 +1,35 @@
+.profile {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profilePersonalMessage {
+  font-size: 24px;
+}
+
+.profileNickname {
+  font-size: 40px;
+  color: white;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.profileUser {
+  font-size: 12px;
+}
+
+.profile dl {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.profile dt,
+.profile dd {
+  display: inline-block;
+  text-align: center;
+  margin-left: 0;
+  width: 50%;
+  margin-bottom: 5px;
+  font-size: 12px;
+}

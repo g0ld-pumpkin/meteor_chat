@@ -1,0 +1,59 @@
+.colorPicker {
+  position: relative;
+}
+
+.colorPickerImg {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  display: inline-block;
+  background-color: blue;
+  margin-bottom: -6px;
+  margin-left: 4px;
+}
+
+.colorPickerImg:hover {
+  cursor: pointer;
+}
+
+.colorPickerContainer {
+  display: none;
+  position: absolute;
+  top: -260px;
+  left: -330px;
+  width: auto;
+  min-width: 440px;
+  height: 260px;
+  background: black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#picker {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#picker:hover {
+  cursor: pointer;
+}
+
+.pickerControls {
+  display: inline-block;
+  text-align: right;
+}
+
+.pickerControls div {
+  margin-bottom: -20px;
+}
+
+.pickerControls input:hover {
+  cursor: default;
+}
+
+.pickerPreview {
+  display: inline-block;
+  width: 60px;
+  height: 25px;
+}

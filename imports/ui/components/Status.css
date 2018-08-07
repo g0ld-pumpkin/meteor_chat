@@ -1,0 +1,19 @@
+.characterListEntryStatus {
+  display: inline-block;
+  position: absolute;
+}
+
+.characterListEntryStatus.characterSidebarStatus {
+  left: 35px;
+  top: 35px;
+}
+
+.characterListEntryStatus.searchSidebarStatus {
+  right: 15px;
+  top: 25px;
+}
+
+.characterListEntryStatus.profileStatus {
+  display: inline-block;
+  position: relative;
+}

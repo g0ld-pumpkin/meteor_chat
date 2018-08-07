@@ -1,0 +1,47 @@
+.emojiContainer {
+  display: none;
+  background-color: #000000;
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  top: -330px;
+  font-size: 24px;
+  z-index: 100;
+}
+
+.emojiRow {
+  height: 40px;
+  padding: 5px;
+}
+
+.emojiRow span {
+  display: inline-block;
+  width: 30px;
+}
+
+.emojiRow span:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.emojiIcon {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.emojiTab {
+  display: none;
+}
+
+.emojiContainer hr {
+  height: 1px;
+  border: 0;
+  color: grey;
+  background-color: #333;
+}
+
+.emojiIcon:hover {
+  cursor: pointer;
+}
